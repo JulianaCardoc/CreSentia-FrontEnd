@@ -1,0 +1,11 @@
+#email-input {
+  background: url(../../../assets/svg/envelope-regular.svg) no-repeat left;
+  padding-left: 30px;
+  background-size: 20px;
+}
+
+#password-input {
+  background: url(../../../assets/svg/unlock-solid.svg) no-repeat left;
+  padding-left: 30px;
+  background-size: 18px;
+}
