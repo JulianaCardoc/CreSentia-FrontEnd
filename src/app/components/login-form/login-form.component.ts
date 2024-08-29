@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
+import { UserService } from '../../services/user-service.service';
 
 @Component({
   selector: 'app-login-form',
@@ -9,5 +10,5 @@ import { ButtonComponent } from '../button/button.component';
   styleUrl: './login-form.component.css'
 })
 export class LoginFormComponent {
-
+private userService = inject(UserService);
 }
