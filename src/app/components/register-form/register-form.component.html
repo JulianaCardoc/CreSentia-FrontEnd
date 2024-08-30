@@ -3,13 +3,13 @@
 <form novalidate class="space-y-4" >
   <div>
     <div class="relative">
+        <label for="name">Nombre y apellidos</label>
       <input
         #nameInput
-        formControlName="email"
-        placeholder="Email or phone number"
-        type="email"
+        formControlName="name"
+        type="text"
         class="w-full bg-gray-100 border-b-2 font-normal text-csgreen p-4"
-        id="email-input"
+        id="name-input"
         />
         <button type="button" class="p-2 absolute right-2">
         </button>
@@ -36,11 +36,11 @@
     </div>
     <div>
       <div class="relative">
+        <label for="nickname">Cómo te gusta que te llamen?</label>
         <input
-          formControlName="password"
-          placeholder="Password"
+          formControlName="nickname"
           class="w-full bg-gray-100 border-b-2 font-normal text-csgreen p-4"
-          id="password-input"
+          id="nickname-input"
           />
           <button type="button" class="p-2 absolute right-2">
           </button>

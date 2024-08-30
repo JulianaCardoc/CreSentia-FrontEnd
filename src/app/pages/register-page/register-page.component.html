@@ -1,1 +1,20 @@
-<p>register-page works!</p>
+<div class="w-screen h-screen bg-white sm:bg-gray-50 relative">
+    <app-layout></app-layout>
+    <div class="relative w-full sm:w-7/12 md:w-6/12 lg:w-96 m-auto pt-28">
+      <app-logo></app-logo>
+      <div class="bg-white bg-opacity-5 rounded-2xl shadow-none sm:shadow-sm md:px-9 p-8">
+        <div class="flex justify-center items-center h-3/4 relative">
+          <app-register-form></app-register-form>
+        </div>
+        <div
+          class="flex justify-end items-end space-x-0 space-y-2 md:space-x-2 md:space-y-0 flex-col md:flex-row py-6 px-2"
+        >
+          <a routerLink="/forgot-password" class="text-sm">Don't have an account?</a>
+          <a routerLink="/register" class="text-blue-600 text-sm"
+            >Sign up</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  
